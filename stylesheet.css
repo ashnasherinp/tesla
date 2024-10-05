@@ -1,0 +1,221 @@
+body{
+    overflow-x: hidden;
+}
+.first-section{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:url(images/pg\ 1.avif);
+    background-size: cover;
+}
+
+
+nav{
+    
+    top: 11px;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    margin-left: 18px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav .btn{
+    color: white;
+    text-decoration: none;
+    margin-inline-start: 50px;
+    padding: 5px;
+}
+.content{
+    position: absolute ;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 2%;
+    color: white;
+    line-height: .75; 
+}
+.contents{
+    position: absolute ;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: -50px;
+    color: white;
+    line-height: .75; 
+}
+.links{
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 30%;
+
+}
+.linkzs{
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 30%;
+    top: 0px;
+
+}
+.orders{
+    padding: 9px 80px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(76, 43, 226);
+    border-radius: 4px;
+}
+.demos{
+    padding: 9px 80px;
+    text-decoration: none;
+    color:black;
+    background-color: rgb(245, 244, 249);
+    border-radius: 4px;
+}
+/* .first-section.linkzs{
+    position: absolute;
+    margin-top:45%;
+    margin-left:30%;
+} */
+/* .first-section.linkzs.order{
+    padding: 9px 80px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(76, 43, 226);
+    border-radius: 4px; */
+
+
+/* /* /* .first-section.linkss.demo{
+        padding: 9px 80px;
+        text-decoration: none;
+        color:black;
+        background-color: rgb(245, 244, 249);
+        border-radius: 4px;
+     */
+     */
+ */
+.links{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 30%;
+
+}
+.links .order{
+    padding: 9px 80px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(76, 43, 226);
+    border-radius: 4px;
+
+
+
+}
+.links .demo{
+    padding: 9px 80px;
+    text-decoration: none;
+    color:black;
+    background-color: rgb(245, 244, 249);
+    border-radius: 4px;
+
+}
+
+.second-section{
+    background-image: url(images/img\ 2.avif);
+    background-size: cover;
+}
+.third-section{
+    background-image: url(images/img\ 3.avif);
+    background-size: cover;
+}
+.fourth-section{
+    background-image: url(images/img\ 4.avif);
+    background-size: cover;
+}
+.fifth-section{
+    background-image: url(images/img\ 5.avif);
+    background-size: cover;
+}
+.fifth-section img{
+margin-top: 130px;
+margin-left:1px ;
+             
+}
+.fifth-section .linkss{
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 30%;
+}
+.fifth-section .linkss .order{
+    color: white;
+    background-color: black;
+    padding: 9px 80px;
+    text-decoration: none;
+    border-radius: 4px;
+
+}
+.fifth-section .linkss .demo{
+    color: white;
+    background-color: black;
+    padding: 9px 80px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.sixth-section{
+    background-image: url(images/img\ 6.avif);
+    background-size: cover;
+}
+.seventh-section{
+    background-image: url(images/img\ 7.avif);
+    background-size: cover;
+}
+.seventh-section{
+    background-image: url(images/im\ 8.avif);
+    background-size: cover;
+}
+.eight-section{
+    background-image: url(images/im\ 9.avif);
+    background-size: cover;
+}
+
+.eight-section .linksss .order{
+    margin-top: 47%;
+    margin-left: 42%;
+    position: absolute;
+    color: white;
+    background-color: rgb(37, 13, 177);
+    padding: 9px 80px;
+    text-decoration: none;
+    border-radius: 4px;
+
+    }
+.ninth-section{
+    background-color: black;
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+.ninth-section ul{
+    text-align: center;
+    text-decoration: none;
+}
+.ninth-section li{
+    display: inline;
+    padding: 10px;
+}
+.ninth-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
